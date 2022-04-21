@@ -115,6 +115,19 @@ const ROUTES = [
     ),
     type: RouteType.PAGE,
   },
+  {
+    icon: null,
+    name: 'RediscoveringALMLwithAzure',
+    path: '/RediscoveringALMLwithAzure',
+    component: (
+      <Redirect
+        path='/RediscoveringALMLwithAzure'
+        url='https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjVhMDMxYzAtZTg5MC00OGZmLTg5NTgtYTRkZmFlNmU3ZGNm%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%2236e55efe-4cf5-4425-ae59-4b1da5982a81%22%7d'
+      />
+    ),
+    type: RouteType.PAGE,
+  },
+
 
   {
     icon: null,
